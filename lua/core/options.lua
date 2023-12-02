@@ -1,51 +1,54 @@
 -- Set options
 -- See :help vim.om :set all, :options
 
+-- set shortcut
+local opt = vim.opt
+
 -- tabs and indentation
-vim.opt.expandtab = true
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.softtabstop = 4
-vim.opt.autoindent = true
-vim.opt.smartindent = true
-vim.opt.breakindent = true
-vim.opt.wrap = false
+opt.expandtab = true
+opt.tabstop = 4
+opt.shiftwidth = 4
+opt.softtabstop = 4
+opt.autoindent = true
+opt.smartindent = true
+opt.breakindent = true
+opt.wrap = false
 
 -- search
-vim.opt.hlsearch = false
-vim.opt.incsearch = true
-vim.opt.ignorecase = true
-vim.opt.smartcase = true
+opt.hlsearch = false
+opt.incsearch = true
+opt.ignorecase = true
+opt.smartcase = true
 
 -- appearance
-vim.opt.number = true
-vim.opt.relativenumber = true
-vim.opt.list = true
-vim.opt.colorcolumn = '100'
-vim.opt.signcolumn = "yes"
-vim.opt.cmdheight = 1
-vim.opt.scrolloff = 10
-vim.opt.completeopt = "menuone,noinsert,noselect"
-vim.opt.termguicolors = true
+opt.number = true
+opt.relativenumber = true
+opt.list = true
+opt.colorcolumn = '100'
+opt.signcolumn = "yes"
+opt.cmdheight = 1
+opt.scrolloff = 10
+opt.completeopt = "menuone,noinsert,noselect"
+opt.termguicolors = true
 
 -- behaviour
-vim.opt.hidden = true
-vim.opt.errorbells = true
-vim.opt.swapfile = false
-vim.opt.backup = false
-vim.opt.undodir = vim.fn.expand("~/.vim/undodir")
-vim.opt.undofile = true
-vim.opt.backspace = "indent,eol,start"
-vim.opt.splitright = true
-vim.opt.splitbelow = false
-vim.opt.autochdir = false
-vim.opt.iskeyword = "-"
-vim.opt.modifiable = true
-vim.opt.encoding = "UTF-8"
+opt.hidden = true
+opt.errorbells = true
+opt.swapfile = false
+opt.backup = false
+opt.undodir = vim.fn.expand("~/.vim/undodir")
+opt.undofile = true
+opt.backspace = "indent,eol,start"
+opt.splitright = true
+opt.splitbelow = false
+opt.autochdir = false
+opt.iskeyword = "-"
+opt.modifiable = true
+opt.encoding = "UTF-8"
 
 -- cursor
-vim.opt.cursorline = true
-vim.opt.guicursor:append("a:blinkon1")
-vim.opt.mouse = 'a'
-vim.opt.clipboard = "unnamedplus"
+opt.cursorline = true
+opt.guicursor:append("a:blinkon1")
+opt.mouse = 'a'
+opt.clipboard = "unnamedplus"
 
