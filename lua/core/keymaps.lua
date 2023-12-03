@@ -27,3 +27,26 @@ map('n', '<C-A-j>', "<cmd>SmartSwapDown<CR>", { noremap = true, silent = true, d
 map('n', '<C-A-k>', "<cmd>SmartSwapUp<CR>", { noremap = true, silent = true, desc = "Swap buffer up" })
 map('n', '<C-A-l>', "<cmd>SmartSwapRight<CR>", { noremap = true, silent = true, desc = "Swap buffer right" })
 
+-- move to buffer
+map('n', '<A-,>', "<cmd>BufferPrevious<CR>", { noremap = true, silent = true, desc = "Move to previous buffer" })
+map('n', '<A-.>', "<cmd>BufferNext<CR>", { noremap = true, silent = true, desc = "Move to next buffer" })
+-- re-order buffer
+map('n', '<A-<>', "<cmd>BufferMovePrevious<CR>", { noremap = true, silent = true, desc = "Re-order to previous tbuffer" })
+map('n', '<A->>', "<cmd>BufferMoveNext<CR>", { noremap = true, silent = true, desc = "Re-order to next buffer" })
+-- go to buffer
+map('n', '<A-1>', "<cmd>BufferGoto 1<CR>", { noremap = true, silent = true, desc = "Go to buffer in position 1" })
+map('n', '<A-2>', "<cmd>BufferGoto 2<CR>", { noremap = true, silent = true, desc = "Go to buffer in position 2" })
+map('n', '<A-3>', "<cmd>BufferGoto 3<CR>", { noremap = true, silent = true, desc = "Go to buffer in position 3" })
+map('n', '<A-4>', "<cmd>BufferGoto 4<CR>", { noremap = true, silent = true, desc = "Go to buffer in position 4" })
+map('n', '<A-5>', "<cmd>BufferGoto 5<CR>", { noremap = true, silent = true, desc = "Go to buffer in position 5" })
+map('n', '<A-6>', "<cmd>BufferGoto 6<CR>", { noremap = true, silent = true, desc = "Go to buffer in position 6" })
+map('n', '<A-7>', "<cmd>BufferGoto 7<CR>", { noremap = true, silent = true, desc = "Go to buffer in position 7" })
+map('n', '<A-8>', "<cmd>BufferGoto 8<CR>", { noremap = true, silent = true, desc = "Go to buffer in position 8" })
+map('n', '<A-9>', "<cmd>BufferGoto 9<CR>", { noremap = true, silent = true, desc = "Go to buffer in position 9" })
+map('n', '<A-0>', "<cmd>BufferLast<CR>", { noremap = true, silent = true, desc = "Go to buffer in last position" })
+-- pin and unpin buffer
+map('n', '<A-p>', "<cmd>BufferPin<CR>", { noremap = true, silent = true, desc = "Pin or unpin buffer" })
+-- close and restore buffer
+map('n', '<A-c>', "<cmd>BufferClose<CR>", { noremap = true, silent = true, desc = "Close buffer" })
+map('n', '<A-S-c>', "<cmd>BufferRestore<CR>", { noremap = true, silent = true, desc = "Restore buffer" })
+
