@@ -12,6 +12,5 @@ return {
         }
         -- setup must be called before loading
         vim.cmd("colorscheme nordfox")
-    end
+    end,
 }
-

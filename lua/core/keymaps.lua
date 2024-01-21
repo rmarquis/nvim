@@ -5,7 +5,7 @@
 local map = vim.keymap.set
 
 -- lazy
-map("n", "<leader>l", "<cmd>Lazy<cr>", { desc = "Lazy" })
+map("n", "<leader>l", "<cmd>Lazy<CR>", { desc = "Lazy" })
 
 -- telescope
 map('n', '<leader>f', "<cmd>Telescope<CR>", { desc = "Telescope" })
@@ -54,4 +54,3 @@ map('n', '<A-p>', "<cmd>BufferPin<CR>", { noremap = true, silent = true, desc = 
 -- close and restore buffer
 map('n', '<A-c>', "<cmd>BufferClose<CR>", { noremap = true, silent = true, desc = "Close buffer" })
 map('n', '<A-S-c>', "<cmd>BufferRestore<CR>", { noremap = true, silent = true, desc = "Restore buffer" })
-

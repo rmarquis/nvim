@@ -2,4 +2,3 @@
 -- See :help mapleader
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-

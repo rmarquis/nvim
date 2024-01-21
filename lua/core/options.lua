@@ -51,4 +51,3 @@ opt.cursorline = true
 opt.guicursor:append("a:blinkon1")
 opt.mouse = 'a'
 opt.clipboard = "unnamedplus"
-

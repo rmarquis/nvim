@@ -5,6 +5,5 @@ return {
         require('nvim-autopairs').setup(
             -- config
         )
-    end
+    end,
 }
-

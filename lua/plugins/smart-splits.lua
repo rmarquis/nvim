@@ -8,6 +8,5 @@ return {
            at_edge = 'stop',
            cursor_follows_swapped_bufs = true,
        }
-    end
+    end,
 }
-
