@@ -12,6 +12,7 @@ return {
                 },
                 shortcut = {
                     { icon = '📦 ', desc = 'Update', group = '@property', action = 'Lazy update', key = 'u' },
+                    { icon = '🔭 ', desc = 'Find files', group = '@property', action = 'Telescope find_files', key = 'f' },
                 },
             },
         }
