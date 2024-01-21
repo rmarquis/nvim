@@ -9,6 +9,13 @@ local map = vim.keymap.set
 -- lazy
 map("n", "<leader>l", "<cmd>Lazy<cr>", { desc = "Lazy" })
 
+-- telescope
+map('n', '<leader>f', "<cmd>Telescope<CR>", { desc = "Telescope" })
+map('n', '<leader>ff', "<cmd>Telescope find_files<CR>", { desc = "Find files" })
+map('n', '<leader>fg', "<cmd>Telescope live_grep<CR>", { desc = "Live grep" })
+map('n', '<leader>fg', "<cmd>Telescope buffers<CR>", { desc = "Find buffer" })
+map('n', '<leader>fh', "<cmd>Telescope help_tags<CR>", { desc = "Find tags" })
+
 -- move between splits
 -- these keymaps will also accept a range,
 -- for example `10<A-h>` will `resize_left` by `(10 * config.default_amount)`
