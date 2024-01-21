@@ -1,0 +1,2 @@
+-- Set autocomds
+-- See :help autocmd

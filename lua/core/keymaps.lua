@@ -1,7 +1,5 @@
--- Set <space> as the leader key
--- See :help mapleader
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
+-- Set keymaps
+-- See :help vim.keymap
 
 -- set shortcut
 local map = vim.keymap.set
