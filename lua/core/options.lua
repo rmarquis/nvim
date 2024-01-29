@@ -24,6 +24,15 @@ opt.smartcase = true
 opt.number = true
 opt.relativenumber = true
 opt.list = true
+vim.opt.listchars = {
+    eol = " ",
+    space = "·",
+    tab = "▸ ",
+    trail = "·",
+    extends = "→",
+    precedes = "←",
+    nbsp = "␣",
+}
 opt.colorcolumn = '100'
 opt.signcolumn = "yes"
 opt.cmdheight = 1
