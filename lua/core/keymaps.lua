@@ -4,15 +4,19 @@
 -- set shortcut
 local map = vim.keymap.set
 
+-- quit
+map('n', '<leader>q', "<cmd>qa<CR>", { desc = "Quit" })
+
 -- lazy
 map("n", "<leader>l", "<cmd>Lazy<CR>", { desc = "Lazy" })
 
 -- telescope
 map('n', '<leader>f', "<cmd>Telescope<CR>", { desc = "Telescope" })
-map('n', '<leader>ff', "<cmd>Telescope find_files<CR>", { desc = "Find files" })
-map('n', '<leader>fg', "<cmd>Telescope live_grep<CR>", { desc = "Live grep" })
-map('n', '<leader>fg', "<cmd>Telescope buffers<CR>", { desc = "Find buffer" })
-map('n', '<leader>fh', "<cmd>Telescope help_tags<CR>", { desc = "Find tags" })
+map('n', '<leader>ff', "<cmd>Telescope find_files<CR>", { desc = "Find file" })
+map('n', '<leader>fg', "<cmd>Telescope live_grep<CR>", { desc = "Find text" })
+map('n', '<leader>fr', "<cmd>Telescope oldfiles<CR>", { desc = "Find recent" })
+map('n', '<leader>fh', "<cmd>Telescope help_tags<CR>", { desc = "Find help" })
+map('n', '<leader>fb', "<cmd>Telescope buffers<CR>", { desc = "Find buffer" })
 
 -- move between splits
 -- these keymaps will also accept a range,
