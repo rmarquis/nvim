@@ -18,6 +18,13 @@ map('n', '<leader>fr', "<cmd>Telescope oldfiles<CR>", { desc = "Find recent" })
 map('n', '<leader>fh', "<cmd>Telescope help_tags<CR>", { desc = "Find help" })
 map('n', '<leader>fb', "<cmd>Telescope buffers<CR>", { desc = "Find buffer" })
 
+map('n', '<leader>g', "<cmd>Telescope<CR>", { desc = "Git" })
+map('n', '<leader>gf', "<cmd>Telescope git_files<CR>", { desc = "Git files" })
+map('n', '<leader>gb', "<cmd>Telescope git_branches<CR>", { desc = "Git branches" })
+map('n', '<leader>gc', "<cmd>Telescope git_commits<CR>", { desc = "Git commits" })
+map('n', '<leader>gs', "<cmd>Telescope git_status<CR>", { desc = "Git status" })
+map('n', '<leader>gt', "<cmd>Telescope git_stash<CR>", { desc = "Git stash" })
+
 -- move between splits
 -- these keymaps will also accept a range,
 -- for example `10<A-h>` will `resize_left` by `(10 * config.default_amount)`
