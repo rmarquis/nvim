@@ -10,6 +10,9 @@ map('n', '<leader>q', "<cmd>qa<CR>", { desc = "Quit" })
 -- lazy
 map("n", "<leader>l", "<cmd>Lazy<CR>", { desc = "Lazy" })
 
+-- general
+map("i", "<S-Tab>", "<BS>", { desc = "Backspace" })
+
 -- telescope
 map('n', '<leader>f', "<cmd>Telescope<CR>", { desc = "Telescope" })
 map('n', '<leader>ff', "<cmd>Telescope find_files<CR>", { desc = "Find file" })
