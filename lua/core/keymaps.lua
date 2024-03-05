@@ -13,6 +13,9 @@ map("n", "<leader>l", "<cmd>Lazy<CR>", { desc = "Lazy" })
 -- general
 map("i", "<S-Tab>", "<BS>", { desc = "Backspace" })
 
+-- nvim-tree
+map('n', '<leader>n', "<cmd>NvimTreeToggle<CR>", { desc = "Explorer" })
+
 -- telescope
 map('n', '<leader>f', "<cmd>Telescope<CR>", { desc = "Telescope" })
 map('n', '<leader>ff', "<cmd>Telescope find_files<CR>", { desc = "Find file" })
