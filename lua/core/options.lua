@@ -33,7 +33,7 @@ vim.opt.listchars = {
     precedes = "←",
     nbsp = "␣",
 }
-opt.colorcolumn = '100'
+opt.colorcolumn = '120'
 opt.signcolumn = "yes"
 opt.cmdheight = 1
 opt.scrolloff = 10
