@@ -9,6 +9,9 @@ return {
         require("barbar").setup {
             -- config
             auto_hide = 1,
+            sidebar_filetypes = {
+                NvimTree = {text = 'Files', align = 'center'},
+            }
         }
         -- disable auto-setup
         vim.g.barbar_auto_setup = false
