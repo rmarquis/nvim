@@ -28,9 +28,11 @@ opt.listchars = {
     eol = " ",
     space = " ",
     tab = "▸ ",
+    lead = " ",
     trail = "·",
     extends = "→",
     precedes = "←",
+    conceal = "┊",
     nbsp = "␣",
 }
 opt.colorcolumn = '120'
