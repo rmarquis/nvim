@@ -29,6 +29,7 @@ return {
                 -- config
                 ensure_installed = {
                     "lua_ls",
+                    "pylsp",
                 }
             }
         end
@@ -47,6 +48,7 @@ return {
                     }
                 }
             })
+            lspconfig.pylsp.setup({})
 
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
