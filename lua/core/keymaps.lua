@@ -13,6 +13,9 @@ map("n", "<leader>l", "<cmd>Lazy<CR>", { desc = "Lazy" })
 -- general
 map("i", "<S-Tab>", "<BS>", { desc = "Backspace" })
 
+-- dashboard
+map('n', '<leader>d', "<cmd>Dashboard<CR>", { desc = "Dashboard" })
+
 -- nvim-tree
 map('n', '<leader>e', "<cmd>NvimTreeToggle<CR>", { desc = "Explorer" })
 
