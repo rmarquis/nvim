@@ -7,5 +7,5 @@ return {
     end,
     opts = {
         -- config
-    }
+    },
 }

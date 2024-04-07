@@ -2,7 +2,7 @@ return {
     "nvim-treesitter/nvim-treesitter",
     lazy = false,
     config = function()
-        require('nvim-treesitter.configs').setup {
+        require("nvim-treesitter.configs").setup({
             -- config
             ensure_installed = {
                 "c",
@@ -23,7 +23,7 @@ return {
             indent = {
                 enable = true,
             },
-        }
+        })
     end,
-    build = ':TSUpdate',
+    build = ":TSUpdate",
 }
