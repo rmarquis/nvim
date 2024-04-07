@@ -30,6 +30,7 @@ return {
                 ensure_installed = {
                     "lua_ls",
                     "pylsp",
+                    "ruff_lsp",
                 },
             })
         end,
@@ -50,6 +51,13 @@ return {
                 },
             })
             lspconfig.pylsp.setup({})
+            lspconfig.ruff_lsp.setup({
+                init_options = {
+                    settings = {
+                        args = {},
+                    },
+                },
+            })
 
             -- Use LspAttach autocommand to only map the following keys
             -- after the language server attaches to the current buffer
