@@ -31,6 +31,8 @@ map('n', '<leader>gc', "<cmd>Telescope git_commits<CR>", { desc = "Git commits" 
 map('n', '<leader>gs', "<cmd>Telescope git_status<CR>", { desc = "Git status" })
 map('n', '<leader>gt', "<cmd>Telescope git_stash<CR>", { desc = "Git stash" })
 
+map('n', '<leader>m', "<cmd>Mason<CR>", { desc = "Mason" })
+
 -- move between splits
 -- these keymaps will also accept a range,
 -- for example `10<A-h>` will `resize_left` by `(10 * config.default_amount)`
