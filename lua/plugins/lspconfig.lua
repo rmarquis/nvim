@@ -31,6 +31,7 @@ return {
                     "lua_ls",
                     "pylsp",
                     "ruff_lsp",
+                    "zls",
                 },
             })
         end,
@@ -58,6 +59,7 @@ return {
                     },
                 },
             })
+            lspconfig.zls.setup({})
 
             -- Use LspAttach autocommand to only map the following keys
             -- after the language server attaches to the current buffer
