@@ -1,6 +1,6 @@
 -- Set Lazy package manager
 -- See :help lazy.nvim.txt
-local lazypath = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
 if not vim.loop.fs_stat(lazypath) then
     vim.fn.system({
@@ -15,10 +15,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- source core files
-require('core.globals')
-require('core.options')
-require('core.keymaps')
-require('core.autocmds')
+require("core.globals")
+require("core.options")
+require("core.keymaps")
+require("core.autocmds")
 
 local plugins = "plugins"
 
@@ -45,4 +45,4 @@ local opts = {
     },
 }
 
-require('lazy').setup(plugins, opts)
+require("lazy").setup(plugins, opts)
