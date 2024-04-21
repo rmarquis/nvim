@@ -40,6 +40,8 @@ return {
         "neovim/nvim-lspconfig",
         config = function()
             -- Setup language servers
+            local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
             local lspconfig = require("lspconfig")
             lspconfig.lua_ls.setup({
                 settings = {
@@ -50,14 +52,18 @@ return {
                         },
                     },
                 },
+                capabilities = capabilities,
             })
-            lspconfig.pylsp.setup({})
+            lspconfig.pylsp.setup({
+                capabilities = capabilities,
+            })
             lspconfig.ruff_lsp.setup({
                 init_options = {
                     settings = {
                         args = {},
                     },
                 },
+                capabilities = capabilities,
             })
             lspconfig.zls.setup({})
 
