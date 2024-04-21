@@ -29,6 +29,9 @@ local opts = {
     install = {
         colorscheme = { "nordfox" },
     },
+    change_detection = {
+        notify = false,
+    },
     performance = {
         rtp = {
             disabled_plugins = {
