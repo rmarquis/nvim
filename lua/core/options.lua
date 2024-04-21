@@ -35,7 +35,7 @@ opt.listchars = {
     conceal = "┊",
     nbsp = "␣",
 }
-opt.colorcolumn = '120'
+opt.colorcolumn = "120"
 opt.signcolumn = "yes"
 opt.cmdheight = 1
 opt.scrolloff = 10
@@ -60,5 +60,5 @@ opt.encoding = "UTF-8"
 -- cursor
 opt.cursorline = true
 opt.guicursor:append("a:blinkon1")
-opt.mouse = 'a'
+opt.mouse = "a"
 opt.clipboard = "unnamedplus"
