@@ -10,7 +10,11 @@ return {
             -- config
             auto_hide = 1,
             sidebar_filetypes = {
-                NvimTree = { text = "Files", align = "center" },
+                ["neo-tree"] = {
+                    text = "Explorer",
+                    align = "center",
+                    event = "BufWipeout",
+                },
             },
         })
         -- disable auto-setup
