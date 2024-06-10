@@ -78,7 +78,7 @@ return {
                     map("n", "<leader>s", vim.diagnostic.open_float, { buffer = ev.buf, desc = "Server" })
                     map("n", "<leader>sd", vim.diagnostic.open_float, { buffer = ev.buf, desc = "Diagnostics" })
                     map("n", "]d", vim.diagnostic.goto_next, { buffer = ev.buf, desc = "Next diagnostic" })
-                    map("n", "[d", vim.diagnostic.goto_next, { buffer = ev.buf, desc = "Prev diagnostic" })
+                    map("n", "[d", vim.diagnostic.goto_prev, { buffer = ev.buf, desc = "Prev diagnostic" })
 
                     -- Buffer local mappings
                     -- See `:help vim.lsp.*` for documentation on any of the below functions
