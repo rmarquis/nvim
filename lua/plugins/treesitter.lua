@@ -10,6 +10,7 @@ return {
                 "markdown",
                 "python",
                 "query",
+                "typescript",
                 "vim",
                 "vimdoc",
                 "zig",
