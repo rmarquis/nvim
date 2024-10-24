@@ -29,7 +29,7 @@ return {
                 -- config
                 ensure_installed = {
                     "lua_ls",
-                    "tsserver",
+                    "ts_ls",
                     "pylsp",
                     "ruff_lsp",
                     "zls",
@@ -55,7 +55,7 @@ return {
                 },
                 capabilities = capabilities,
             })
-            lspconfig.tsserver.setup({
+            lspconfig.ts_ls.setup({
                 capabilities = capabilities,
             })
             lspconfig.pylsp.setup({
