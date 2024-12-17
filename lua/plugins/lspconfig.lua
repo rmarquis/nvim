@@ -31,7 +31,7 @@ return {
                     "lua_ls",
                     "ts_ls",
                     "pylsp",
-                    "ruff_lsp",
+                    "ruff",
                     "zls",
                 },
             })
@@ -61,7 +61,7 @@ return {
             lspconfig.pylsp.setup({
                 capabilities = capabilities,
             })
-            lspconfig.ruff_lsp.setup({
+            lspconfig.ruff.setup({
                 init_options = {
                     settings = {
                         args = {},
