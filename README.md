@@ -51,13 +51,13 @@ Install LSP components:
 
 ```shell
 rye tools install python-lsp-server
-rye tools install ruff-lsp
+rye tools install ruff
 ```
 
 Mason tooling:
 
 * `python-lsp-server`
-* `ruff-lsp`
+* `ruff`
 
 ### Zig
 
