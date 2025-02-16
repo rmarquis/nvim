@@ -9,6 +9,7 @@ Install:
 * `neovim`
 * `fd`
 * `fzf`
+* `yazi`
 
 Clone the repository:
 
@@ -75,7 +76,7 @@ Mason tooling:
 | plugin manager   | lazy |
 | completion       | nvim-cmp, cmp-nvim-lsp, cmp_luasnip, friendly-snippets |
 | editing support  | autopairs |
-| file explorer    | neotree |
+| file explorer    | yazi |
 | fuzzy finder     | telescope, telescope-ui-select |
 | git              | gitsigns |
 | lsp              | nvim-lspconfig, mason-lspconfig, mason, none-ls, treesitter |
