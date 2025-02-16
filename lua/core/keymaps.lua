@@ -16,8 +16,8 @@ map("i", "<S-Tab>", "<BS>", { desc = "Backspace" })
 -- dashboard
 map("n", "<leader>d", "<cmd>Dashboard<CR>", { desc = "Dashboard" })
 
--- neotree
-map("n", "<leader>e", "<cmd>Neotree toggle<CR>", { desc = "Explorer" })
+-- explorer
+map("n", "<leader>e", "<cmd>Yazi toggle<CR>", { desc = "Explorer" })
 
 -- telescope
 map("n", "<leader>f", "<cmd>Telescope<CR>", { desc = "Telescope" })
