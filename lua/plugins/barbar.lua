@@ -9,13 +9,6 @@ return {
         require("barbar").setup({
             -- config
             auto_hide = 1,
-            sidebar_filetypes = {
-                ["neo-tree"] = {
-                    text = "Explorer",
-                    align = "center",
-                    event = "BufWipeout",
-                },
-            },
         })
         -- disable auto-setup
         vim.g.barbar_auto_setup = false
