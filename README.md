@@ -9,6 +9,8 @@ Install:
 * `neovim`
 * `fd`
 * `fzf`
+* `ripgrep`
+* `stylua`
 * `yazi`
 
 Clone the repository:
