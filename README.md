@@ -99,8 +99,8 @@ Global resources:
 Inspiration:
 
 * [From 0 to IDE in NEOVIM from scratch](https://www.youtube.com/watch?v=zHTeCSVAFNY&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn) by typecraft
+* [Full Neovim Setup from Scratch in 2025](https://www.youtube.com/watch?v=KYDG3AHgYEs) by Henri Misc
 * [The Only Video You Need to Get Started with Neovim](https://www.youtube.com/watch?v=m8C0Cq9Uv9o) by TJ DeVries
 * [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 * [mezdelex/NeovimConfig](https://github.com/mezdelex/NeovimConfig)
 * [radleylewis/nvim](https://github.com/radleylewis/nvim)
-
