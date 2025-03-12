@@ -28,6 +28,7 @@ Built-in.
 
 | Category         | Plugins      |
 | -----------------|--------------|
+| plugin manager   | lazy |
 
 ## Resources
 
