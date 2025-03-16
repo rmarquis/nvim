@@ -16,6 +16,9 @@ local opts = {
     defaults = {
         lazy = true,
     },
+    change_detection = {
+        notify = false,
+    },
     install = {
         colorscheme = { "nordfox" },
     },
