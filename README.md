@@ -7,8 +7,10 @@ My Neovim config for Windows and Linux.
 Install:
 
 * `neovim`
+* `git`
 * `fd`
 * `ripgrep`
+* `git`
 
 Clone the repository:
 
@@ -32,6 +34,7 @@ Built-in.
 | -----------------|--------------|
 | plugin manager   | lazy |
 | fuzzy finder     | telescope, telescope-ui-select |
+| git              | gitsigns |
 | keybinding       | which-key |
 | startup          | dashboard |
 | statusline       | lualine |
