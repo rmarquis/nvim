@@ -29,6 +29,7 @@ Built-in.
 | Category         | Plugins      |
 | -----------------|--------------|
 | plugin manager   | lazy |
+| theme            | nightfox (nordfox variant) |
 
 ## Resources
 
