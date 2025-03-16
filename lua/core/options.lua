@@ -52,7 +52,7 @@ vim.opt.sidescrolloff = 8
 vim.opt.showtabline = 1
 
 -- behaviour
-vim.opt.showmode = true
+vim.opt.showmode = false
 vim.opt.hidden = true
 vim.opt.errorbells = true
 vim.opt.swapfile = false
