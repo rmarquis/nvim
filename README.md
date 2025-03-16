@@ -29,6 +29,7 @@ Built-in.
 | Category         | Plugins      |
 | -----------------|--------------|
 | plugin manager   | lazy |
+| keybinding       | which-key |
 | statusline       | lualine |
 | tabline          | bufferline |
 | theme            | nightfox (nordfox variant) |
