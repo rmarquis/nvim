@@ -30,6 +30,7 @@ Built-in.
 | -----------------|--------------|
 | plugin manager   | lazy |
 | statusline       | lualine |
+| tabline          | bufferline |
 | theme            | nightfox (nordfox variant) |
 
 ## Resources
