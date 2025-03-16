@@ -13,6 +13,9 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = "plugins"
 local opts = {
+    defaults = {
+        lazy = true,
+    },
     install = {
         colorscheme = { "nordfox" },
     },
