@@ -33,6 +33,7 @@ Built-in.
 | Category         | Plugins      |
 | -----------------|--------------|
 | plugin manager   | lazy |
+| editing support  | autopairs |
 | fuzzy finder     | telescope, telescope-ui-select |
 | git              | gitsigns |
 | keybinding       | which-key |
