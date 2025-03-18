@@ -31,7 +31,7 @@ Built-in.
 | Category         | Plugins      |
 | -----------------|--------------|
 | plugin manager   | lazy |
-| fuzzy finder     | telescope |
+| fuzzy finder     | telescope, telescope-ui-select |
 | keybinding       | which-key |
 | statusline       | lualine |
 | syntax           | treesitter |
