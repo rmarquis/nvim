@@ -28,6 +28,7 @@ return {
                 },
             },
         })
+    vim.keymap.set({ "n", "v" }, "<leader>d", "<cmd>Dashboard<CR>", { desc = "Dashboard" })
     end,
 }
 
