@@ -1,12 +1,28 @@
 return {
-    "nvim-telescope/telescope.nvim", branch = "0.1.x",
-    dependencies = {
-        "nvim-lua/plenary.nvim"
+    {
+        "nvim-telescope/telescope.nvim", branch = "0.1.x",
+        dependencies = {
+            "nvim-lua/plenary.nvim"
+        },
+        config = function()
+            require('telescope.builtin')
+            require("telescope").setup()
+        end,
     },
-    lazy = false,
-    config = function()
-        require('telescope.builtin')
-        require('telescope').setup()
-    end,
+    {
+        "nvim-telescope/telescope-ui-select.nvim",
+        event = "VimEnter",
+        config = function()
+            require("telescope").setup({
+                -- config
+                extensions = {
+                    ["ui-select"] = {
+                        require("telescope.themes").get_dropdown({}),
+                    },
+                },
+            require("telescope").load_extension("ui-select"),
+            })
+        end,
+    }
 }
 
