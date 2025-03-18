@@ -4,6 +4,18 @@
 -- for conciseness
 local opts = { noremap = true, silent = true }
 
+-- autocorrect
+vim.cmd("cabbrev W w")
+vim.cmd("cabbrev Wq wq")
+vim.cmd("cabbrev Wq wq")
+vim.cmd("cabbrev WQ wq")
+vim.cmd("cabbrev Q q")
+vim.cmd("cabbrev Q! q!")
+vim.cmd("cabbrev Qa qa")
+vim.cmd("cabbrev Qa! qa!")
+vim.cmd("cabbrev QA qa")
+vim.cmd("cabbrev QA! qa!")
+
 -- backspace
 vim.keymap.set("i", "<S-Tab>", "<BS>", opts)
 
