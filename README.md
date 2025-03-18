@@ -33,6 +33,7 @@ Built-in.
 | plugin manager   | lazy |
 | fuzzy finder     | telescope, telescope-ui-select |
 | keybinding       | which-key |
+| startup          | dashboard |
 | statusline       | lualine |
 | syntax           | treesitter |
 | tabline          | bufferline |
