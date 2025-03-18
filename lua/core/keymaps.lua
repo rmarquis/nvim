@@ -25,3 +25,6 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 -- quit
 vim.keymap.set("n", "<leader>q", "<cmd>qa<CR>", { desc = "Quit" })
 
+-- lazy
+vim.keymap.set("n", "<leader>l", "<cmd>Lazy<CR>", { desc = "Lazy" })
+
