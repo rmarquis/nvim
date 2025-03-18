@@ -36,6 +36,7 @@ Built-in.
 | editing support  | autopairs |
 | fuzzy finder     | telescope, telescope-ui-select |
 | git              | gitsigns |
+| indent           | indent-blankline |
 | keybinding       | which-key |
 | startup          | dashboard |
 | statusline       | lualine |
