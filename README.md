@@ -7,6 +7,8 @@ My Neovim config for Windows and Linux.
 Install:
 
 * `neovim`
+* `fd`
+* `ripgrep`
 
 Clone the repository:
 
@@ -29,6 +31,7 @@ Built-in.
 | Category         | Plugins      |
 | -----------------|--------------|
 | plugin manager   | lazy |
+| fuzzy finder     | telescope |
 | keybinding       | which-key |
 | statusline       | lualine |
 | syntax           | treesitter |
