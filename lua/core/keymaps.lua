@@ -19,3 +19,6 @@ vim.cmd("cabbrev QA! qa!")
 -- backspace
 vim.keymap.set("i", "<S-Tab>", "<BS>", opts)
 
+-- clear highlights on search when pressing <Esc>
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
+
