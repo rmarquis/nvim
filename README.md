@@ -41,7 +41,7 @@ Built-in.
 | git              | gitsigns |
 | indent           | indent-blankline |
 | keybinding       | which-key |
-| lsp              | nvim-lspconfig, mason, mason-lspconfig, fidget |
+| lsp              | nvim-lspconfig, mason, mason-lspconfig, fidget, none-ls |
 | snippet          | luasnip, friendly-snippets |
 | startup          | dashboard |
 | statusline       | lualine |
