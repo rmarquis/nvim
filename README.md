@@ -35,6 +35,7 @@ Built-in.
 | plugin manager   | lazy |
 | editing support  | autopairs |
 | comment          | todo-comments |
+| file explorer    | neo-tree |
 | fuzzy finder     | telescope, telescope-ui-select |
 | git              | gitsigns |
 | indent           | indent-blankline |
