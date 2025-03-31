@@ -40,6 +40,7 @@ Built-in.
 | git              | gitsigns |
 | indent           | indent-blankline |
 | keybinding       | which-key |
+| lsp              | nvim-lspconfig, mason, mason-lspconfig, fidget |
 | startup          | dashboard |
 | statusline       | lualine |
 | syntax           | treesitter |
