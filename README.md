@@ -35,12 +35,14 @@ Built-in.
 | plugin manager   | lazy |
 | editing support  | autopairs |
 | comment          | todo-comments |
+| completion       | nvim-cmp |
 | file explorer    | neo-tree |
 | fuzzy finder     | telescope, telescope-ui-select |
 | git              | gitsigns |
 | indent           | indent-blankline |
 | keybinding       | which-key |
 | lsp              | nvim-lspconfig, mason, mason-lspconfig, fidget |
+| snippet          | luasnip, friendly-snippets |
 | startup          | dashboard |
 | statusline       | lualine |
 | syntax           | treesitter |
