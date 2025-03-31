@@ -17,6 +17,7 @@ return {
                     { icon = "🔎 ", desc = "Text", group = "@property", action = "Telescope live_grep", key = "g" },
                     { icon = "⌛ ", desc = "Recent", group = "@property", action = "Telescope oldfiles", key = "r" },
                     { icon = "💤 ", desc = "Lazy", group = "@property", action = "Lazy", key = "l" },
+                    { icon = "🧱 ", desc = "Mason", group = "@property", action = "Mason", key = "m" },
                     { icon = "🛟 ", desc = "Help", group = "@property", action = "Telescope help_tags", key = "h" },
                     { icon = "🚪 ", desc = "Quit", group = "@property", action = "qa", key = "q" },
                 },
